@@ -1,9 +1,9 @@
 # Tools-devops-guide
 Devops tool explained
 
-     “DevOps Tools Explained – Everything You Need to Know Before You Start!” 
+“DevOps Tools Explained – Everything You Need to Know Before You Start!” 
  
-     8 DevOps Tools You Need to Learn (Detailed Notes).
+8 DevOps Tools You Need to Learn (Detailed Notes).
  
 GIT – Repository & Version Control System
 ----------------------------------------------------------------------------     
