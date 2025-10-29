@@ -30,7 +30,7 @@ build and deploy the application.
 CI/CD Tools – Continuous Integration / Continuous Deployment
 ---------------------------------------------------------------------------
 
-     What is CI/CD? 
+What is CI/CD? 
 ---------------------------------------------------------------------------
 • CI (Continuous Integration): Automatically builds and tests your code whenever a 
 developer pushes changes. 
