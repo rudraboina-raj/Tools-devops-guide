@@ -3,12 +3,12 @@ Devops tool explained
 
      “DevOps Tools Explained – Everything You Need to Know Before You Start!” 
  
-     8 DevOps Tools You Need to Learn (Detailed Notes)
+     8 DevOps Tools You Need to Learn (Detailed Notes).
  
 GIT – Repository & Version Control System
 ----------------------------------------------------------------------------     
 What is Git? 
-----------------------------------------------------------------------------
+
 Git is a version control system (VCS) that helps you track, manage, and collaborate on 
 code changes. 
 It lets multiple developers work on the same project without overwriting each other’s work. 
