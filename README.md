@@ -11,18 +11,21 @@ What is Git?
 
 Git is a version control system (VCS) that helps you track, manage, and collaborate on 
 code changes. 
+
 It lets multiple developers work on the same project without overwriting each other’s work. 
       Why It’s Important in DevOps: 
 • Every DevOps workflow starts with source code. 
 • Git ensures your application code, infrastructure code, and configuration files are 
 stored in a central repository like GitHub, GitLab, or Bitbucket. 
 • Enables collaboration, branching, rollback, and versioning.
+
     Common Commands: 
 git init              # Initialize repository 
 git add .             # Stage changes 
 git commit -m "msg"   # Save version 
 git push              # Push to remote repo 
-git pull              # Fetch latest code 
+git pull              # Fetch latest code
+
    Real-world Example: 
 When developers push code to GitHub, it automatically triggers the CI/CD pipeline to 
 build and deploy the application. 
@@ -33,7 +36,8 @@ CI/CD Tools – Continuous Integration / Continuous Deployment
 What is CI/CD? 
 ---------------------------------------------------------------------------
 • CI (Continuous Integration): Automatically builds and tests your code whenever a 
-developer pushes changes. 
+developer pushes changes.
+
 • CD (Continuous Deployment/Delivery): Automatically deploys the tested code to 
 servers or cloud environments. 
 
@@ -47,6 +51,7 @@ Popular Tools:
 • Jenkins: Open-source automation server, widely used for custom pipelines. 
 • Azure DevOps: Cloud-based CI/CD and project management suite from Microsoft. 
 • GitHub Actions: Lightweight CI/CD directly inside GitHub repositories. 
+
 Real-world Example: 
 When you commit code in GitHub: 
 1. Jenkins or Azure DevOps pipeline builds the code 
@@ -61,6 +66,7 @@ What is IaC?
 Infrastructure as Code (IaC) means writing code to create and manage infrastructure 
 (servers, VMs, networks, databases, etc.) instead of doing it manually through cloud 
 consoles. 
+
 Why It’s Important: 
 • Automates environment creation 
 • Keeps infrastructure consistent and repeatable 
@@ -116,13 +122,15 @@ What is Cloud Computing?
 ------------------------------------------------------------------------------------
 Cloud platforms provide on-demand infrastructure (servers, databases, storage, 
 networking) over the internet — no need to maintain physical data centers. 
+
       Why It’s Important in DevOps: 
 • DevOps pipelines deploy applications directly to cloud environments. 
 • Enables scalability, high availability, and cost optimization. 
         Major Cloud Providers: 
 • Azure (Microsoft) – Deep integration with enterprise tools, great for hybrid cloud. 
 • AWS (Amazon Web Services) – Largest ecosystem and global reach. 
-• GCP (Google Cloud Platform) – Strong in AI/ML and data analytics. 
+• GCP (Google Cloud Platform) – Strong in AI/ML and data analytics.
+
     Example: 
 Terraform can deploy infrastructure to any of these clouds. 
 Jenkins pipelines can deploy containers to AKS (Azure Kubernetes Service), EKS (AWS), 
@@ -135,6 +143,7 @@ What is Monitoring?
 --------------------------------------------------------------------------------------
 Monitoring tools continuously track the health, performance, and logs of your 
 infrastructure and applications. 
+
       Why It’s Important: 
 • Detect performance bottlenecks 
 • Get alerts before outages happen 
@@ -155,6 +164,7 @@ What is Kubernetes?
 ----------------------------------------------------------------------------------------
 Kubernetes (K8s) is an open-source system that automates the deployment, scaling, 
 and management of containerized applications (like Docker containers). 
+
       Why It’s Important: 
 • Manages hundreds of containers efficiently 
 • Provides auto-scaling, self-healing, load balancing, and rolling updates 
